@@ -37,7 +37,7 @@ const BestSeller = () => {
 
 
                 <SwiperSlide>
-                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-7'>
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-7 pb-3'>
                         <Product_card />
                         <Product_card />
                         <Product_card />

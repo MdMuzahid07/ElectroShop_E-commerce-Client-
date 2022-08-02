@@ -34,10 +34,11 @@ const New_Arrival_slider = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-
-
                 <SwiperSlide>
-                    <New_Product_Card />
+                    <div className="pb-3">
+                        <New_Product_Card />
+                    </div>
+
                 </SwiperSlide>
 
                 <SwiperSlide>
@@ -47,7 +48,6 @@ const New_Arrival_slider = () => {
                 <SwiperSlide>
                     <New_Product_Card />
                 </SwiperSlide>
-
             </Swiper>
         </section>
     );
