@@ -37,7 +37,7 @@ const BestSeller = () => {
 
 
                 <SwiperSlide>
-                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-7'>
                         <Product_card />
                         <Product_card />
                         <Product_card />
@@ -50,7 +50,7 @@ const BestSeller = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-7'>
                         <Product_card />
                         <Product_card />
                         <Product_card />
@@ -63,7 +63,7 @@ const BestSeller = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-7'>
                         <Product_card />
                         <Product_card />
                         <Product_card />
