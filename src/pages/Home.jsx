@@ -1,5 +1,6 @@
 import React from 'react';
 import BestSeller from '../components/Home_Page/Best_Seller/BestSeller';
+import BestSeller_Thumbnail from '../components/Home_Page/Best_Seller/BestSeller_Thumbnail';
 import NewCollection_BestSeller from '../components/Home_Page/NewCollection_BestSeller';
 import Slider from '../components/Home_Page/Slider';
 
@@ -9,6 +10,7 @@ const Home = () => {
             <Slider />
             <NewCollection_BestSeller />
             <BestSeller />
+            <BestSeller_Thumbnail />
         </section>
     );
 };
