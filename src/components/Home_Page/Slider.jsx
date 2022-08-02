@@ -23,20 +23,45 @@ const Slider = () => {
                 onSlideChange={() => console.log('slide change')}
             >
                 <SwiperSlide>
-                    <div className='pb-7'>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis libero fugit id, deserunt commodi officia eligendi ab veritatis illo aliquam quaerat nihil architecto, at in nemo reiciendis quidem modi! Illum, quas molestiae, distinctio cum maiores beatae nesciunt dicta dolorem necessitatibus accusantium possimus optio! Quia nihil minima libero! Natus recusandae tenetur at vel totam. Facere distinctio natus et incidunt totam nihil doloremque quis quas rem iure labore esse maxime aut delectus, sint assumenda culpa quasi eum. Commodi esse quod dolores, ea temporibus pariatur vel beatae. Non tempore ducimus voluptatibus aperiam odit ex temporibus hic minus nemo. Voluptates atque dolor sunt itaque?</p>
+                    <div className='flex justify-around items-center pb-7'>
+                        <div>
+                            <p>Black friday</p>
+                            <h2 className="text-2xl md:text-5xl font-bold text-primary">Electronic</h2>
+                            <h3 className="text-2xl md:text-5xl font-bold">New Arrivals</h3>
+                            <button className="btn btn-primary">Shop Now</button>
+                        </div>
+                        <div>
+                            <img src="https://i.ibb.co/7jYn66f/Untitled-design-1-removebg-preview.png" alt="" />
+                        </div>
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis libero fugit id, deserunt commodi officia eligendi ab veritatis illo aliquam quaerat nihil architecto, at in nemo reiciendis quidem modi! Illum, quas molestiae, distinctio cum maiores beatae nesciunt dicta dolorem necessitatibus accusantium possimus optio! Quia nihil minima libero! Natus recusandae tenetur at vel totam. Facere distinctio natus et incidunt totam nihil doloremque quis quas rem iure labore esse maxime aut delectus, sint assumenda culpa quasi eum. Commodi esse quod dolores, ea temporibus pariatur vel beatae. Non tempore ducimus voluptatibus aperiam odit ex temporibus hic minus nemo. Voluptates atque dolor sunt itaque?</p>
+                    <div className='flex justify-around items-center pb-7'>
+                        <div>
+                            <p>Best selling</p>
+                            <h2 className="text-2xl md:text-5xl font-bold text-primary">Apple</h2>
+                            <h3 className="text-2xl md:text-5xl font-bold">Iphone</h3>
+                            <button className="btn btn-primary">Shop Now</button>
+                        </div>
+                        <div>
+                            <img src="https://i.ibb.co/S7cMM3f/Untitled-design-2-removebg-preview.png" alt="" />
+                        </div>
                     </div>
                 </SwiperSlide>
 
+
                 <SwiperSlide>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis libero fugit id, deserunt commodi officia eligendi ab veritatis illo aliquam quaerat nihil architecto, at in nemo reiciendis quidem modi! Illum, quas molestiae, distinctio cum maiores beatae nesciunt dicta dolorem necessitatibus accusantium possimus optio! Quia nihil minima libero! Natus recusandae tenetur at vel totam. Facere distinctio natus et incidunt totam nihil doloremque quis quas rem iure labore esse maxime aut delectus, sint assumenda culpa quasi eum. Commodi esse quod dolores, ea temporibus pariatur vel beatae. Non tempore ducimus voluptatibus aperiam odit ex temporibus hic minus nemo. Voluptates atque dolor sunt itaque?</p>
+                    <div className='flex justify-around items-center pb-7'>
+                        <div>
+                            <p>This week only</p>
+                            <h2 className="text-2xl md:text-5xl font-bold text-primary">Up sale to</h2>
+                            <h3 className="text-2xl md:text-5xl font-bold">20% off</h3>
+                            <button className="btn btn-primary">Shop Now</button>
+                        </div>
+                        <div>
+                            <img src="https://i.ibb.co/QH3Rr7d/Untitled-design-removebg-preview.png" alt="" />
+                        </div>
                     </div>
                 </SwiperSlide>
 
