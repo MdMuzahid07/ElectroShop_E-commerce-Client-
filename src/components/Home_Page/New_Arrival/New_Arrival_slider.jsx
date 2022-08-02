@@ -1,7 +1,7 @@
 
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -10,6 +10,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
 import New_Product_Card from './New_Product_Card';
 
 const New_Arrival_slider = () => {
@@ -23,12 +24,12 @@ const New_Arrival_slider = () => {
             </div>
             <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 slidesPerView={4}
                 pagination={{ clickable: true }}
                 loop={true}
                 autoplay={{
-                    delay: 500,
+                    delay: 3000,
                     disableOnInteraction: false
                 }}
                 onSwiper={(swiper) => console.log(swiper)}

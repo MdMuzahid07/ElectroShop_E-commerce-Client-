@@ -2,7 +2,7 @@ import React from 'react';
 
 const Company_fun_facts = () => {
     return (
-        <div className='my-20 bg-accent rounded-xl p-4 text-white'>
+        <section className='my-20 bg-accent rounded-xl p-4 text-white'>
             <div className='grid md:grid-cols-4 gap-7'>
                 <div>
                     <img src="https://i.ibb.co/rsM0VPM/Untitled-design-removebg-preview.png" alt="Rocket_logo" />
@@ -37,7 +37,7 @@ const Company_fun_facts = () => {
                 </div>
 
             </div>
-        </div >
+        </section >
     );
 };
 

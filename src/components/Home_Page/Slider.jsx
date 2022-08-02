@@ -1,6 +1,6 @@
 import React from 'react';
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
 
 
 const Slider = () => {
@@ -16,12 +17,12 @@ const Slider = () => {
         <section className='bg-slate-50 rounded-xl p-4 mb-7'>
             <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
                 loop={true}
                 autoplay={{
-                    delay: 500,
+                    delay: 3000,
                     disableOnInteraction: false
                 }}
                 onSwiper={(swiper) => console.log(swiper)}

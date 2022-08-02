@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Error_page from "./pages/Error_page";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 function App() {
@@ -17,6 +18,7 @@ function App() {
               <Route path="/shop" element={<Shop />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/*" element={<Error_page />} />
             </Routes>
           </div>
           <Footer />
