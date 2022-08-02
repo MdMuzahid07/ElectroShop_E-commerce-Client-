@@ -19,6 +19,11 @@ const Slider = () => {
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 slidesPerView={1}
                 pagination={{ clickable: true }}
+                loop={true}
+                autoplay={{
+                    delay: 500,
+                    disableOnInteraction: false
+                }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
