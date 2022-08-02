@@ -11,7 +11,7 @@ const Header = ({ children }) => {
                     <Header_top />
                     {/* <!-- Navbar --> */}
                     <hr />
-                    <div className="w-full navbar border drop-shadow sticky top-0 z-20">
+                    <div className="w-full navbar bg-white border drop-shadow sticky top-0 z-20">
                         <div className="navbar-start">
                             <div className="lg:hidden">
                                 <label for="my-drawer-3" className="btn btn-square btn-ghost">

@@ -13,7 +13,7 @@ import 'swiper/css/scrollbar';
 
 const Slider = () => {
     return (
-        <section className='bg-slate-50 rounded-xl p-4 my-7'>
+        <section className='bg-slate-50 rounded-xl p-4 mb-7'>
             <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
