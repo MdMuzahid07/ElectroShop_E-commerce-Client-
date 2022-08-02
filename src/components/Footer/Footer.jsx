@@ -39,7 +39,7 @@ const Footer = () => {
             </section>
             <section class="footer footer-center p-4 bg-primary text-white border drop-shadow font-bold">
                 <div>
-                    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2022 - All right reserved by ElectroShop E-commerce Ltd</p>
                 </div>
             </section>
         </footer>

@@ -1,6 +1,7 @@
 import React from 'react';
 import BestSeller from '../components/Home_Page/Best_Seller/BestSeller';
 import BestSeller_Thumbnail from '../components/Home_Page/Best_Seller/BestSeller_Thumbnail';
+import Company_fun_facts from '../components/Home_Page/Company_fun_facts';
 import NewCollection_BestSeller from '../components/Home_Page/NewCollection_BestSeller';
 import New_Arrival_slider from '../components/Home_Page/New_Arrival/New_Arrival_slider';
 import New_Arrival_thumbnail from '../components/Home_Page/New_Arrival/New_Arrival_thumbnail';
@@ -15,6 +16,7 @@ const Home = () => {
             <BestSeller_Thumbnail />
             <New_Arrival_slider />
             <New_Arrival_thumbnail />
+            <Company_fun_facts />
         </section>
     );
 };
