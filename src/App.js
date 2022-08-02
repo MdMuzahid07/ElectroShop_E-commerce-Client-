@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Animated_Cursor from "./components/AnimatedCursor/Animated_Cursor";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import About from "./pages/About";
@@ -19,6 +20,7 @@ function App() {
             </Routes>
           </div>
           <Footer />
+          <Animated_Cursor />
         </Header>
       </main>
     </div>

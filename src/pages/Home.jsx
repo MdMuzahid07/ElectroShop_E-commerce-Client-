@@ -4,10 +4,10 @@ import Slider from '../components/Home_Page/Slider';
 
 const Home = () => {
     return (
-        <div className='my-7'>
+        <section className='my-7'>
             <Slider />
             <NewCollection_BestSeller />
-        </div>
+        </section>
     );
 };
 
