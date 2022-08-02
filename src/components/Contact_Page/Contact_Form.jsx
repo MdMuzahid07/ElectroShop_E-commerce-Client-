@@ -26,14 +26,14 @@ const Contact_Form = () => {
                     <p className='text-xs font-bold tracking-wider'>Monday-Friday 9am-5pm ET</p>
                 </div>
             </div>
-            <div className='mt-4'>
-                <form onSubmit={handleSubmit(onSubmit)}>
-                    <input type="text" placeholder="Name" class="input w-full" />
-                    <input type="text" placeholder="Email address" class="input w-full my-2" />
-                    <textarea class="textarea w-full h-96 mb-2" placeholder="Message"></textarea>
-                    <button type="submit" className='btn btn-primary w-full'>Submit</button>
-                </form>
-            </div>
+            <form onSubmit={handleSubmit(onSubmit)}>
+                <input type="text" placeholder="Name" class="input w-full" />
+                <input type="text" placeholder="Email address" class="input w-full my-2" />
+                <textarea class="textarea w-full h-96 mb-2" placeholder="Message"></textarea>
+                <button type="submit" className='btn btn-primary w-full'>Submit <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg></button>
+            </form>
         </section >
     );
 };
