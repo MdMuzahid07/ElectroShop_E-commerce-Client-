@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import Social_Icons from '../Social_Icons';
 
 const Contact_Form = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -25,6 +26,7 @@ const Contact_Form = () => {
                     <h2 className='text-xl mt-4'>SPECIALIST HOURS</h2>
                     <p className='text-xs font-bold tracking-wider'>Monday-Friday 9am-5pm ET</p>
                 </div>
+                <Social_Icons />
             </div>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input type="text" placeholder="Name" class="input w-full" />
