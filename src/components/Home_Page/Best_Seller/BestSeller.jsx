@@ -10,6 +10,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Product_card from './Product_card';
 
 const BestSeller = () => {
     return (
@@ -33,17 +34,45 @@ const BestSeller = () => {
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
             >
-                <SwiperSlide>
 
+
+                <SwiperSlide>
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                    </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                    </div>
                 </SwiperSlide>
 
-
                 <SwiperSlide>
-
+                    <div className='grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                        <Product_card />
+                    </div>
                 </SwiperSlide>
 
             </Swiper>

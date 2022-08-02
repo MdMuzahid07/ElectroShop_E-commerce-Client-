@@ -1,5 +1,5 @@
 import React from 'react';
-import BestSeller from '../components/Home_Page/BestSeller';
+import BestSeller from '../components/Home_Page/Best_Seller/BestSeller';
 import NewCollection_BestSeller from '../components/Home_Page/NewCollection_BestSeller';
 import Slider from '../components/Home_Page/Slider';
 
