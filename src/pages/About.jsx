@@ -1,9 +1,10 @@
 import React from 'react';
+import Page_Thumbnail from '../components/About_Page/Page_Thumbnail';
 
 const About = () => {
     return (
-        <div>
-            <h2>about page</h2>
+        <div className='my-7'>
+            <Page_Thumbnail />
         </div>
     );
 };
