@@ -11,7 +11,7 @@ const NewCollection_BestSeller = () => {
                         <button className='btn btn-primary'>Shop Now</button>
                     </div>
                     <div>
-                        <img className='w-48' src="https://i.ibb.co/PYrKYdr/Untitled-design-1-removebg-preview.png" alt="" />
+                        <img className='w-52 md:w-72' src="https://i.ibb.co/PYrKYdr/Untitled-design-1-removebg-preview.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const NewCollection_BestSeller = () => {
                         <button className='btn btn-primary'>Shop Now</button>
                     </div>
                     <div>
-                        <img className='w-48' src="https://i.ibb.co/ZTQwhcZ/Untitled-design-removebg-preview.png" alt="" />
+                        <img className='w-52 md:w-72' src="https://i.ibb.co/ZTQwhcZ/Untitled-design-removebg-preview.png" alt="" />
                     </div>
                 </div>
             </div>

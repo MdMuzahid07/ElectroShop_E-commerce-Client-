@@ -1,0 +1,54 @@
+
+import React from 'react';
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+const BestSeller = () => {
+    return (
+        <section className='my-20'>
+            <div className='my-7 text-center'>
+                <div class="flex flex-col w-full border-opacity-50">
+                    <div class="divider text-4xl font-bold text-primary">Best Seller</div>
+                </div>
+                <p className='text-xs font-bold'>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
+            </div>
+            <Swiper
+                // install Swiper modules
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                loop={true}
+                autoplay={{
+                    delay: 500,
+                    disableOnInteraction: false
+                }}
+                onSwiper={(swiper) => console.log(swiper)}
+                onSlideChange={() => console.log('slide change')}
+            >
+                <SwiperSlide>
+
+                </SwiperSlide>
+
+                <SwiperSlide>
+
+                </SwiperSlide>
+
+
+                <SwiperSlide>
+
+                </SwiperSlide>
+
+            </Swiper>
+        </section>
+    );
+};
+
+export default BestSeller;
