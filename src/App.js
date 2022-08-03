@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Animated_Cursor from "./components/AnimatedCursor/Animated_Cursor";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import About from "./pages/About";
@@ -23,6 +24,11 @@ function App() {
           </div>
           <Footer />
           <Animated_Cursor />
+          <MessengerCustomerChat
+            pageId="104988185648465"
+            appId="<APP_ID>"
+          // htmlRef="<REF_STRING>"
+          />,
         </Header>
       </main>
     </div>

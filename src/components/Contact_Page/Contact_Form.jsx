@@ -28,6 +28,7 @@ const Contact_Form = () => {
                 </div>
                 <Social_Icons />
             </div>
+            <div class="divider md:hidden" />
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input type="text" placeholder="Name" class="input w-full" />
                 <input type="text" placeholder="Email address" class="input w-full my-2" />

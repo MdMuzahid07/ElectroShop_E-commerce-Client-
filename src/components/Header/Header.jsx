@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header_top from './Header_top';
+import Categories_menu from './Categories_menu';
 
 const Header = ({ children }) => {
     return (
@@ -29,13 +30,7 @@ const Header = ({ children }) => {
                                     <Link className="hover:text-red-500" to="/shop">shop</Link>
                                 </li>
                                 <li>
-                                    <div class="dropdown dropdown-hover">
-                                        <label tabindex="0">categories</label>
-                                        <ul tabindex="0" class="dropdown-content menu p-2 border drop-shadow shadow rounded bg-base-100 w-96 mt-28 z-30">
-                                            <li><a>Item 1</a></li>
-                                            <li><a>Item 2</a></li>
-                                        </ul>
-                                    </div>
+                                    <Categories_menu />
                                 </li>
                                 <li>
                                     <Link className="hover:text-red-500" to="/about">about</Link>
@@ -52,8 +47,14 @@ const Header = ({ children }) => {
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                                 </label>
                                 <ul tabindex="0" class="dropdown-content menu rounded-box w-72">
-                                    <input type="text" placeholder="Search" class="input w-full border drop-shadow max-w-xs ml-10 md:ml-0" />
-                                    <button className="btn btn-ghost btn-circle absolute right-0">Ok</button>
+                                    <div class="form-control">
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Search…" class="input input-bordered ml-10 md:ml-0" />
+                                            <button class="btn btn-square">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </ul>
                             </div>
 
@@ -109,13 +110,7 @@ const Header = ({ children }) => {
                             <Link className="hover:text-red-500" to="/shop">shop</Link>
                         </li>
                         <li>
-                            <div class="dropdown dropdown-hover">
-                                <label tabindex="0" className="button">categories</label>
-                                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                                    <li><a>Item 1</a></li>
-                                    <li><a>Item 2</a></li>
-                                </ul>
-                            </div>
+                            <Categories_menu />
                         </li>
                         <li>
                             <Link className="hover:text-red-500" to="/about">about</Link>
