@@ -21,6 +21,7 @@ const Animated_Cursor = () => {
                 'select',
                 'textarea',
                 'button',
+                'modal',
                 '.link'
             ]}
         />

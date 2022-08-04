@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header_top from './Header_top';
 import Categories_menu from './Categories_menu';
+import Header_top from './Header_top';
 
 const Header = ({ children }) => {
     return (

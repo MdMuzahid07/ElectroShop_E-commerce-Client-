@@ -1,25 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Categories_menu = () => {
     return (
-        <div class="dropdown dropdown-hover">
-            <label tabindex="0">Categories</label>
-            <ul tabindex="0" class="dropdown-content menu w-52 bg-white border drop-shadow rounded mt-20">
-                <li>
-                    <div class="form-control rounded w-52 bg-white">
-                        <select class="select">
-                            <option>Star Wars</option>
-                            <option>Star Wars</option>
-                            <option>Harry Potter</option>
-                            <option>Lord of the Rings</option>
-                            <option>Planet of the Apes</option>
-                            <option>Star Trek</option>
-                        </select>
-                    </div>
-                </li>
-            </ul>
+        <div>
+            <div class="dropdown md:dropdown-start">
+                <label tabindex="0">Categories</label>
+                <ul tabindex="0" class="dropdown-content menu p-2 drop-shadow bg-white z-20 rounded  w-64 mt-7">
+                    <li className='bg-slate-100 border-none'>
+                        <Link to="/">PC/Laptop</Link>
+                    </li>
+                    <li className='bg-slate-100 border-none my-2'>
+                        <Link to="/">Mobiles</Link>
+                    </li>
+                    <li className='bg-slate-100 border-none'>
+                        <Link to="/">Computer console</Link>
+                    </li>
+                    <li className='bg-slate-100 border-none my-2'>
+                        <Link to="/">Mobile Accessories</Link>
+                    </li>
+                    <li className='bg-slate-100 border-none'>
+                        <Link to="/">Headphones</Link>
+                    </li>
+                    <li className='bg-slate-100 border-none my-2'>
+                        <Link to="/">Gaming console</Link>
+                    </li>
+                    <li className='bg-slate-100 border-none'>
+                        <Link to="/">Sports console</Link>
+                    </li>
+                </ul>
+            </div>
         </div>
-
     );
 };
 
