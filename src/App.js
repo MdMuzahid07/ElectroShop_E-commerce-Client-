@@ -8,8 +8,8 @@ import Contact from "./pages/Contact";
 import Error_page from "./pages/Error_page";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
-import Register from "./Authentication/Register";
-import Login from "./Authentication/Login";
+import Register from "./Authentication/Register_login/Register";
+import Login from "./Authentication/Register_login/Login";
 function App() {
   return (
     <div className="bg-slate-50">
