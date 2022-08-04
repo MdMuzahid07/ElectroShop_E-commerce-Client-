@@ -87,8 +87,8 @@ const Header = ({ children }) => {
                                 <ul tabindex="0" class="dropdown-content menu p-2 border drop-shadow bg-base-100 rounded w-52">
                                     <li>
                                         <h2>Profile</h2>
-                                        <h2>Register/Logout</h2>
-                                        <h2 className='font-bold'>Dashboard</h2>
+                                        <Link to="/login">Register/Logout</Link>
+                                        <Link to="/dashboard" className='font-bold'>Dashboard</Link>
                                         <h2><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg> LogOut</h2>
                                     </li>
                                 </ul>

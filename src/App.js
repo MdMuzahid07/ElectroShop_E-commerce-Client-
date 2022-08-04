@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Register from "./Authentication/Register_login/Register";
 import Login from "./Authentication/Register_login/Login";
+import Dashboard from "./Dashboard/Dashboard";
 function App() {
   return (
     <div className="bg-slate-50">
@@ -23,6 +24,7 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/*" element={<Error_page />} />
             </Routes>
           </div>
