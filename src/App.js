@@ -26,7 +26,7 @@ function App() {
           <Animated_Cursor />
           <MessengerCustomerChat
             pageId="104988185648465"
-            appId="<APP_ID>"
+            appId="1010650116290757"
           // htmlRef="<REF_STRING>"
           />,
         </Header>
