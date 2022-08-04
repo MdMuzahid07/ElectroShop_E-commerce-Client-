@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Error_page from "./pages/Error_page";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
+import Register from "./Authentication/Register";
+import Login from "./Authentication/Login";
 function App() {
   return (
     <div className="bg-slate-50">
@@ -19,6 +21,8 @@ function App() {
               <Route path="/shop" element={<Shop />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/login" element={<Login />} />
               <Route path="/*" element={<Error_page />} />
             </Routes>
           </div>
