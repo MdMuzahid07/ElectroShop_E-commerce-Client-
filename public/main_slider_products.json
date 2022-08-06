@@ -66,173 +66,36 @@
     "categories": "watch"
   },
   {
-    "name": "apple",
+    "name": "Alienware X7",
+    "brand": "Alienware",
     "price": "100",
     "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
+    "snapshot": "https://i.ibb.co/BV6MXPN/Untitled-design-removebg-preview.png",
+    "available_quantity": "70",
+    "img": "https://i.ibb.co/g6wtxSH/Untitled-design-1-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "laptop"
   },
   {
-    "name": "apple",
-    "price": "100",
+    "name": "Havit M9006",
+    "brand": "Havit",
+    "price": "45",
     "description": "amazing products",
-    "snapshot": "",
+    "snapshot": "https://i.ibb.co/g7DpkjZ/Untitled-design-removebg-preview.png",
     "available_quantity": "700",
-    "img": "",
+    "img": "https://i.ibb.co/KrbbGn8/Untitled-design-1-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "watch"
   },
   {
-    "name": "apple",
-    "price": "100",
+    "name": "Amazfit GTR2",
+    "brand": "Amazon",
+    "price": "200",
     "description": "amazing products",
-    "snapshot": "",
+    "snapshot": "https://i.ibb.co/GxwQxJ6/Untitled-design-2-removebg-preview.png",
     "available_quantity": "700",
-    "img": "",
+    "img": "https://i.ibb.co/PZKZdgH/Untitled-design-3-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
-  },
-  {
-    "name": "apple",
-    "price": "100",
-    "description": "amazing products",
-    "snapshot": "",
-    "available_quantity": "700",
-    "img": "",
-    "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "watch"
   }
 ]
