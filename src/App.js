@@ -18,6 +18,7 @@ import MyOrder from "./Dashboard/UserPages/MyOrder";
 import ManageProducts from "./Dashboard/AdminPages/ManageProducts";
 import ManageUsers from "./Dashboard/AdminPages/ManageUsers";
 import AddProducts from "./Dashboard/AdminPages/AddProducts";
+import HomeMain from "./components/Modals/Main_slider_modal";
 function App() {
   return (
     <div className="bg-slate-50">
@@ -44,7 +45,7 @@ function App() {
             </Routes>
           </div>
           <Footer />
-          <Animated_Cursor />
+          <Animated_Cursor className="z-50" />
           <MessengerCustomerChat
             pageId="104988185648465"
             appId="1010650116290757"
@@ -52,6 +53,7 @@ function App() {
           />,
         </Header>
       </main>
+      <HomeMain />
     </div>
   );
 }
