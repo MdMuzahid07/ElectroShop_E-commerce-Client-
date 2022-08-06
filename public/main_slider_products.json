@@ -8,7 +8,7 @@
     "available_quantity": "700",
     "img": "https://i.ibb.co/sbg1kg7/Apple-watch-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "watch"
   },
   {
     "name": "I MAC",
@@ -19,48 +19,51 @@
     "available_quantity": "170",
     "img": "https://i.ibb.co/f112zK9/Untitled-design-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "pc"
   },
   {
     "name": "360 controller",
     "brand": "X-Box Game",
-    "price": "100",
+    "price": "145",
     "description": "amazing products",
     "snapshot": "https://i.ibb.co/9YRBsMQ/Untitled-design-removebg-preview.png",
-    "available_quantity": "700",
+    "available_quantity": "400",
     "img": "https://i.ibb.co/pvSSH3S/Untitled-design-1-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "game"
   },
   {
-    "name": "apple",
+    "name": "I MAC 2019",
+    "brand": "Apple",
     "price": "100",
     "description": "amazing products",
-    "snapshot": "",
+    "snapshot": "https://i.ibb.co/gj6PxBH/Untitled-design-1-removebg-preview-1.png",
     "available_quantity": "700",
-    "img": "",
+    "img": "https://i.ibb.co/MVQkKhL/Untitled-design-removebg-preview-1.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "pc"
   },
   {
-    "name": "apple",
-    "price": "100",
+    "name": "Alienware mouse A7",
+    "brand": "Alienware",
+    "price": "245",
     "description": "amazing products",
-    "snapshot": "",
+    "snapshot": "https://i.ibb.co/bXvjvXJ/Untitled-design-removebg-preview.png",
     "available_quantity": "700",
-    "img": "",
+    "img": "https://i.ibb.co/KwbrtzY/Untitled-design-1-removebg-preview.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "pcconsole"
   },
   {
-    "name": "apple",
-    "price": "100",
+    "name": "Amazfit bip u pro",
+    "brand": "Amazon",
+    "price": "95",
     "description": "amazing products",
-    "snapshot": "",
+    "snapshot": "https://i.ibb.co/dbSCw7s/Untitled-design-removebg-preview-1.png",
     "available_quantity": "700",
-    "img": "",
+    "img": "https://i.ibb.co/w0hkmYC/Untitled-design-1-removebg-preview-1.png",
     "for": "home_main_slider",
-    "categories": "phone"
+    "categories": "watch"
   },
   {
     "name": "apple",
