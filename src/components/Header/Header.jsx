@@ -80,16 +80,15 @@ const Header = ({ children }) => {
                                 <label tabindex="0">
                                     <div class="avatar">
                                         <div class="w-7 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                            <img src="https://placeimg.com/192/192/people" />
+                                            <img src="https://placeimg.com/192/192/people" alt="" />
                                         </div>
                                     </div>
                                 </label>
                                 <ul tabindex="0" class="dropdown-content menu p-2 border drop-shadow bg-base-100 rounded w-52">
                                     <li>
-                                        <h2>Profile</h2>
+                                        <Link to="dashboard/profile">Profile</Link>
                                         <Link to="/login">Register/Logout</Link>
                                         <Link to="/dashboard" className='font-bold'>Dashboard</Link>
-
                                         <h2><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg> LogOut</h2>
                                     </li>
                                 </ul>
@@ -97,13 +96,11 @@ const Header = ({ children }) => {
                         </div>
                     </div>
                     <hr />
-                    {/* <!-- Page content here --> */}
                     {children}
                 </div>
                 <div className="drawer-side">
                     <label for="my-drawer-3" className="drawer-overlay"></label>
                     <ul className="menu p-4 overflow-y-auto w-72 bg-base-100 capitalize font-bold">
-                        {/* <!-- Sidebar content here --> */}
                         <li>
                             <Link className="hover:text-red-500" to="/">home</Link>
                         </li>
