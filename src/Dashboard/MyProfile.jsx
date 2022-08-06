@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyProfile = () => {
     return (
-        <div>
+        <div className='mx-auto text-5xl'>
             <h2>my profile</h2>
         </div>
     );
