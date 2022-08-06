@@ -7,9 +7,11 @@ const Dashboard = () => {
             <div className="drawer drawer-mobile">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content">
-                    <Outlet />
                     <label for="my-drawer-2" className="btn btn-circle btn-outline btn-primary drawer-button lg:hidden m-5"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </label>
+                    <div className='bg-white md:my-5 mx-5 rounded-xl p-5'>
+                        <Outlet />
+                    </div>
                 </div>
                 <div className="drawer-side rounded-l-lg">
                     <label for="my-drawer-2" className="drawer-overlay"></label>
@@ -31,10 +33,10 @@ const Dashboard = () => {
                             <Link to="manage_products">Manage Users</Link>
                         </li>
                         <li>
-                            <Link to="manage_users">Add Product</Link>
+                            <Link to="add_product">Manage Product</Link>
                         </li>
                         <li>
-                            <Link to="add_product">Manage Product</Link>
+                            <Link to="manage_users">Add Product</Link>
                         </li>
                     </ul>
                 </div>
