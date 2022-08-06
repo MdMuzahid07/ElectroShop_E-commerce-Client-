@@ -11,6 +11,13 @@ import Shop from "./pages/Shop";
 import Register from "./Authentication/Register_login/Register";
 import Login from "./Authentication/Register_login/Login";
 import Dashboard from "./Dashboard/Dashboard";
+import MyProfile from "./Dashboard/MyProfile";
+import GiveAReview from "./Dashboard/UserPages/GiveAReview";
+import ManageOrders from "./Dashboard/AdminPages/ManageOrders";
+import MyOrder from "./Dashboard/UserPages/MyOrder";
+import ManageProducts from "./Dashboard/AdminPages/ManageProducts";
+import ManageUsers from "./Dashboard/AdminPages/ManageUsers";
+import AddProducts from "./Dashboard/AdminPages/AddProducts";
 function App() {
   return (
     <div className="bg-slate-50">
@@ -24,7 +31,15 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
-              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/dashboard" element={<Dashboard />}>
+                <Route path="profile" element={<MyProfile />} />
+                <Route path="review" element={<GiveAReview />} />
+                <Route path="my_orders" element={<MyOrder />} />
+                <Route path="manage_orders" element={<ManageOrders />} />
+                <Route path="manage_products" element={<ManageProducts />} />
+                <Route path="manage_users" element={<ManageUsers />} />
+                <Route path="add_product" element={<AddProducts />} />
+              </Route>
               <Route path="/*" element={<Error_page />} />
             </Routes>
           </div>
