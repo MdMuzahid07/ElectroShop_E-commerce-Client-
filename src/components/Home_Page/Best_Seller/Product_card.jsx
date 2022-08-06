@@ -10,7 +10,6 @@ const Product_card = () => {
         });
     };
 
-
     return (
         <div class="card bg-white rounded border-2 hover:border-primary my-7">
             <figure>
