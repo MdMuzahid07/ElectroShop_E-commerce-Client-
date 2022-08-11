@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import Google_Map from '../components/Contact_Page/Google_Map';
 
 const MyProfile = () => {
 
@@ -16,18 +17,22 @@ const MyProfile = () => {
             <hr className='mt-5 mb-7' />
 
             <div className='md:flex gap-5'>
-                <div class="card card-compact md:w-72 h-72 bg-primary text-white border drop-shadow rounded">
-                    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                <div class="card card-compact md:w-72 h-72 bg-white text-primary border drop-shadow rounded">
+                    <div class="avatar">
+                        <div class="w-44 mx-auto rounded -mt-7">
+                            <img src="https://placeimg.com/192/192/people" alt="profile_img" />
+                        </div>
+                    </div>
                     <div class="card-body">
                         <h2 class="card-title">name</h2>
                         <p>title</p>
-                        <div class="card-actions bg-white rounded p-2">
-                            <input type="file" class=" w-full text-xs text-black
+                        <div class="card-actions bg-black rounded p-2">
+                            <input type="file" class=" w-full text-xs text-white
      
-      file:rounded-full file:border-0
-      file:text-xs file:font-xs
-      file:bg-primary file:text-white
-    "/>
+                                file:rounded-full file:border-0
+                                file:text-xs file:font-xs
+                                file:bg-primary file:text-white
+                                "/>
                         </div>
                     </div>
                 </div>

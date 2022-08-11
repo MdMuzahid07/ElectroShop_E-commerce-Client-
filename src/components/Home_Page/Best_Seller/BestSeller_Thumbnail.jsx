@@ -7,7 +7,7 @@ const BestSeller_Thumbnail = () => {
                 <p className='mb-3'>Modern Laptop</p>
                 <h2 className="text-2xl md:text-4xl font-bold text-primary">Best seller</h2>
                 <p className="text-xs font-bold">Find your dream laptop</p>
-                <button className="btn btn-primary mt-4">Shop Now</button>
+                <button className="btn btn-primary rounded mt-4">Shop Now</button>
             </div>
             <img src="https://i.ibb.co/f9fpPVm/Untitled-design-removebg-preview.png" alt="Laptop_image" />
         </section>
