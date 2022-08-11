@@ -73,6 +73,11 @@ const MyProfile = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='bg-black rounded mt-7 text-white font-bold p-7'>
+
+                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad quibusdam modi reiciendis quas fugiat eaque, laborum corrupti voluptate exercitationem ex?</h1>
+            </div>
         </div>
     );
 };
