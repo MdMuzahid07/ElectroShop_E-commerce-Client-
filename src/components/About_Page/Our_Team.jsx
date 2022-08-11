@@ -4,8 +4,8 @@ const Our_Team = () => {
     return (
         <>
             <div className='my-7 text-center'>
-                <div class="flex flex-col w-full border-opacity-50">
-                    <div class="divider text-4xl font-bold text-primary">Meet our team</div>
+                <div className="flex flex-col w-full border-opacity-50">
+                    <div className="divider text-4xl font-bold text-primary">Meet our team</div>
                 </div>
                 <p className='text-xs font-bold'>we are always ready to be at your service, and we value your time and money</p>
             </div>

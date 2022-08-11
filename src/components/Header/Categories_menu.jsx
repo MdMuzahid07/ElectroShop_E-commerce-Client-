@@ -4,29 +4,29 @@ import { Link } from 'react-router-dom';
 const Categories_menu = () => {
     return (
         <div>
-            <div class="dropdown md:dropdown-start">
-                <label tabindex="0">Categories</label>
-                <ul tabindex="0" class="dropdown-content menu p-2 drop-shadow bg-white z-20 rounded  w-64 mt-7">
+            <div className="dropdown md:dropdown-start">
+                <label tabIndex="0">Categories</label>
+                <ul tabIndex="0" className="dropdown-content menu p-2 drop-shadow bg-white rounded  w-68 mt-7">
                     <li className='bg-slate-100 border-none'>
-                        <Link to="/">PC/Laptop</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">PC/Laptop</button>
                     </li>
                     <li className='bg-slate-100 border-none my-2'>
-                        <Link to="/">Mobiles</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">Mobiles</button>
                     </li>
                     <li className='bg-slate-100 border-none'>
-                        <Link to="/">Computer console</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">Computer console</button>
                     </li>
                     <li className='bg-slate-100 border-none my-2'>
-                        <Link to="/">Mobile Accessories</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">Mobile Accessories</button>
                     </li>
                     <li className='bg-slate-100 border-none'>
-                        <Link to="/">Headphones</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">Headphones</button>
                     </li>
                     <li className='bg-slate-100 border-none my-2'>
-                        <Link to="/">Gaming console</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">Gaming console</button>
                     </li>
                     <li className='bg-slate-100 border-none'>
-                        <Link to="/">Sports console</Link>
+                        <button as={Link} to="/" className="btn btn-outline btn-primary btn-wide rounded">Sports console</button>
                     </li>
                 </ul>
             </div>

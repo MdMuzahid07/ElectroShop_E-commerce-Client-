@@ -12,8 +12,8 @@ const Contact_Form = () => {
     return (
         <section className='grid md:grid-cols-2 gap-7 bg-slate-50 rounded-xl p-4'>
             <div>
-                <div class="flex flex-col w-full border-opacity-50">
-                    <div class="divider text-3xl font-bold">Contact us</div>
+                <div className="flex flex-col w-full border-opacity-50">
+                    <div className="divider text-3xl font-bold">Contact us</div>
                 </div>
                 <div>
                     <h2 className='text-xl font-bold'><span className='text-5xl text-primary font-bold'>|</span> 24/7 At your service</h2>
@@ -28,13 +28,13 @@ const Contact_Form = () => {
                 </div>
                 <Social_Icons />
             </div>
-            <div class="divider md:hidden" />
+            <div className="divider md:hidden" />
             <form onSubmit={handleSubmit(onSubmit)}>
-                <input type="text" placeholder="Name" class="input w-full" />
-                <input type="text" placeholder="Email address" class="input w-full my-2" />
-                <textarea class="textarea w-full h-96 mb-2" placeholder="Message"></textarea>
-                <button type="submit" className='btn btn-primary w-full'>Submit <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <input type="text" placeholder="Name" className="input w-full" />
+                <input type="text" placeholder="Email address" className="input w-full my-2" />
+                <textarea className="textarea w-full h-96 mb-2" placeholder="Message"></textarea>
+                <button type="submit" className='btn btn-primary w-full'>Submit <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg></button>
             </form>
         </section >

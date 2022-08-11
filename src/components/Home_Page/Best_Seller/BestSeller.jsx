@@ -16,8 +16,8 @@ const BestSeller = () => {
     return (
         <section className='my-20'>
             <div className='my-7 text-center'>
-                <div class="flex flex-col w-full border-opacity-50">
-                    <div class="divider text-4xl font-bold text-primary">Best Seller</div>
+                <div className="flex flex-col w-full border-opacity-50">
+                    <div className="divider text-4xl font-bold text-primary">Best Seller</div>
                 </div>
                 <p className='text-xs font-bold'>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
             </div>
