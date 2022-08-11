@@ -21,6 +21,7 @@ import ManageProducts from "./Dashboard/AdminPages/ManageProducts";
 import ManageUsers from "./Dashboard/AdminPages/ManageUsers";
 import AddProducts from "./Dashboard/AdminPages/AddProducts";
 import HomeMain from "./components/Modals/Main_slider_modal";
+import Payment from "./Payment/Payment";
 function App() {
   return (
     <div className="bg-slate-50">
@@ -42,6 +43,7 @@ function App() {
                 <Route path="manage_products" element={<ManageProducts />} />
                 <Route path="manage_users" element={<ManageUsers />} />
                 <Route path="add_product" element={<AddProducts />} />
+                <Route path="payment" element={<Payment />} />
               </Route>
               <Route path="/*" element={<Error_page />} />
             </Routes>
