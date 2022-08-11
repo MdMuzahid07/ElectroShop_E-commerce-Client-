@@ -5,20 +5,16 @@ const GiveAReview = () => {
         <div className='my-7'>
             <h2 className='text-3xl font-bold text-primary'>Give a review</h2>
             <hr className='mt-5 mb-7' />
-            <div class="bg-white border drop-shadow rounded mt-10">
+            <div class="bg-white border drop-shadow rounded my-20">
                 <div class="grid md:grid-cols-2">
                     <div className='bg-primary rounded-l p-7 text-white'>
-                        <div>
-                            <div class="avatar absolute -top-7">
-                                <div class="w-44 border-4 border-accent rounded-xl">
-                                    <img src="https://placeimg.com/192/192/people" alt="profile_img " />
-                                </div>
-                            </div>
-                            <div className='absolute bottom-7'>
-                                <h2 className='text-2xl font-bold'>Review US</h2>
-                                <p className='text-xs font-bold'>your a review is so much valuable for us</p>
+                        <div class="avatar -mt-16">
+                            <div class="w-44 border-4 border-white drop-shadow rounded-xl">
+                                <img src="https://placeimg.com/192/192/people" alt="profile_img " />
                             </div>
                         </div>
+                        <h2 className='text-2xl font-bold'>Review US</h2>
+                        <p className='text-xs font-bold'>your a review is so much valuable for us</p>
                     </div>
                     <div className='p-7'>
                         <form action="">
