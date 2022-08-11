@@ -1,34 +1,59 @@
 import React from 'react';
+import Social_Icons from '../Social_Icons';
 
 const Footer = () => {
     return (
         <footer>
-            <section class="footer p-10 bg-slate-100 text-base-content">
+            <section class="grid md:grid-cols-4 bg-slate-100 px-4 md:px-10 py-7">
                 <div>
-                    <span class="footer-title">Services</span>
-                    <a class="link link-hover">Branding</a>
-                    <a class="link link-hover">Design</a>
-                    <a class="link link-hover">Marketing</a>
-                    <a class="link link-hover">Advertisement</a>
+                    <h2 class="text-xl font-bold">Top brands</h2>
+                    <hr className='my-2' />
+                    <h2>
+                        <a href="/#" class="link link-hover">Apple</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Lenovo</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Dell</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Asus</a>
+                    </h2>
                 </div>
                 <div>
-                    <span class="footer-title">Company</span>
-                    <a class="link link-hover">About us</a>
-                    <a class="link link-hover">Contact</a>
-                    <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
+                    <h2 class="text-xl font-bold">Company</h2>
+                    <hr className='my-2' />
+                    <h2>
+                        <a href="/#" class="link link-hover">About us</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Contact</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Jobs</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Press kit</a>
+                    </h2>
                 </div>
                 <div>
-                    <span class="footer-title">Legal</span>
-                    <a class="link link-hover">Terms of use</a>
-                    <a class="link link-hover">Privacy policy</a>
-                    <a class="link link-hover">Cookie policy</a>
+                    <h2 class="text-xl font-bold">Terms and condition</h2>
+                    <hr className='my-2' />
+                    <h2>
+                        <a href="/#" class="link link-hover">Privacy policy</a>
+                    </h2>
+                    <h2>
+                        <a href="/#" class="link link-hover">Cookie policy</a>
+                    </h2>
                 </div>
                 <div>
-                    <span class="footer-title">Newsletter</span>
+                    <h2 class="text-xl font-bold ">Newsletter</h2>
+                    <hr className='my-2' />
                     <div class="form-control w-80">
                         <label class="label">
-                            <span class="label-text">Enter your email address</span>
+                            <span class="label-text">Stay connect with us</span>
+                            <Social_Icons />
                         </label>
                         <div class="relative">
                             <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" />

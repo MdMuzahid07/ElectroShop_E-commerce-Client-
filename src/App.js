@@ -52,7 +52,7 @@ function App() {
             pageId="104988185648465"
             appId="1010650116290757"
           // htmlRef="<REF_STRING>"
-          />,
+          />
           <ToastContainer />
         </Header>
       </main>
