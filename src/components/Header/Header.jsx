@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Categories_menu from './Categories_menu';
 import Header_top from './Header_top';
 
@@ -70,7 +70,7 @@ const Header = ({ children }) => {
                                         <span className="font-bold text-lg">8 Items</span>
                                         <span className="text-info">Subtotal: $999</span>
                                         <div className="card-actions">
-                                            <button className="btn btn-primary btn-xs rounded-none">View cart</button>
+                                            <NavLink to="/cart" className="btn btn-primary btn-xs rounded-none">View cart</NavLink>
                                         </div>
                                     </div>
                                 </div>
