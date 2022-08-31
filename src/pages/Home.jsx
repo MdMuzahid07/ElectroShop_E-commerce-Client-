@@ -6,12 +6,12 @@ import Company_fun_facts from '../components/Home_Page/Company_fun_facts';
 import NewCollection_BestSeller from '../components/Home_Page/NewCollection_BestSeller';
 import New_Arrival_slider from '../components/Home_Page/New_Arrival/New_Arrival_slider';
 import New_Arrival_thumbnail from '../components/Home_Page/New_Arrival/New_Arrival_thumbnail';
-import Slider from '../components/Home_Page/Slider';
+import HeaderSlider from '../components/Home_Page/HeaderSlider';
 
 const Home = () => {
     return (
         <section className='my-7'>
-            <Slider />
+            <HeaderSlider />
             <NewCollection_BestSeller />
             <BestSeller />
             <BestSeller_Thumbnail />

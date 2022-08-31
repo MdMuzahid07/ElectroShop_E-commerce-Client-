@@ -1,34 +1,52 @@
 import React from 'react';
-// import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import 'swiper/css/autoplay';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
-const Slider = () => {
+const HeaderSlider = () => {
+    var settings = {
+        dots: false,
+        fade: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 0,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
     return (
-        <section className='bg-slate-50 rounded-xl p-4 mb-7'>
-            <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                slidesPerView={1}
-                pagination={{ clickable: true }}
-                loop={true}
-                autoplay={{
-                    delay: 3000,
-                    disableOnInteraction: false
-                }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-            >
-                <SwiperSlide>
+        <section className='bg-slate-50 rounded-xl p-5 mb-7'>
+            <Slider {...settings}>
+                <div>
                     <div className='flex justify-around items-center pb-7'>
                         <div>
                             <p className='mb-3'>Black friday</p>
@@ -40,9 +58,9 @@ const Slider = () => {
                             <img src="https://i.ibb.co/7jYn66f/Untitled-design-1-removebg-preview.png" alt="" />
                         </div>
                     </div>
-                </SwiperSlide>
+                </div>
 
-                <SwiperSlide>
+                <div>
                     <div className='flex justify-around items-center pb-7'>
                         <div>
                             <p className='mb-3'>Best selling</p>
@@ -54,10 +72,9 @@ const Slider = () => {
                             <img src="https://i.ibb.co/S7cMM3f/Untitled-design-2-removebg-preview.png" alt="" />
                         </div>
                     </div>
-                </SwiperSlide>
+                </div>
 
-
-                <SwiperSlide>
+                <div>
                     <div className='flex justify-around items-center pb-7'>
                         <div>
                             <p className='mb-3'>This week only</p>
@@ -69,11 +86,11 @@ const Slider = () => {
                             <img src="https://i.ibb.co/QH3Rr7d/Untitled-design-removebg-preview.png" alt="" />
                         </div>
                     </div>
-                </SwiperSlide>
+                </div>
 
-            </Swiper>
-        </section>
+            </Slider>
+        </section >
     );
 };
 
-export default Slider;
+export default HeaderSlider;

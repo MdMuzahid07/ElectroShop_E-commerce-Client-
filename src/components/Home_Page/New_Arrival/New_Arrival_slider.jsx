@@ -1,19 +1,51 @@
 
 import React from 'react';
-// import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import 'swiper/css/autoplay';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import New_Product_Card from './New_Product_Card';
 
 const New_Arrival_slider = () => {
+
+    var settings = {
+        className: "center",
+        centerMode: true,
+        infinite: true,
+        centerPadding: "60px",
+        slidesToShow: 3,
+        rows: 2,
+        slidesPerRow: 2,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
     return (
         <section className='my-20'>
             <div className='my-7 text-center'>
@@ -22,34 +54,94 @@ const New_Arrival_slider = () => {
                 </div>
                 <p className='text-xs font-bold'>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
             </div>
-            <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                slidesPerView={4}
-                pagination={{ clickable: true }}
-                loop={true}
-                autoplay={{
-                    delay: 3000,
-                    disableOnInteraction: false
-                }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-            >
-                <SwiperSlide>
-                    <div className="pb-3">
-                        <New_Product_Card />
-                    </div>
 
-                </SwiperSlide>
-
-                <SwiperSlide>
+            <Slider    {...settings}>
+                <div>
                     <New_Product_Card />
-                </SwiperSlide>
-
-                <SwiperSlide>
+                </div>
+                <div>
                     <New_Product_Card />
-                </SwiperSlide>
-            </Swiper>
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>    <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>    <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+                <div>
+                    <New_Product_Card />
+                </div>
+
+            </Slider>
         </section>
     );
 };
