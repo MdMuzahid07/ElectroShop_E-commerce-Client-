@@ -60,9 +60,9 @@ function App() {
           />
           <BackToTopButton />
         </Header>
-        <Animated_Cursor className="z-50" />
       </main>
       <HomeMain />
+      <Animated_Cursor className="z-50" />
     </div>
   );
 }
