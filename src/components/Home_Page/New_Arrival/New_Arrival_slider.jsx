@@ -10,6 +10,7 @@ const New_Arrival_slider = () => {
     var settings = {
         className: "center",
         centerMode: true,
+        dots: false,
         infinite: true,
         centerPadding: "60px",
         slidesToShow: 1,
@@ -25,6 +26,7 @@ const New_Arrival_slider = () => {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
+                    slidesPerRow: 3,
                     infinite: true,
                     dots: true
                 }
@@ -34,14 +36,16 @@ const New_Arrival_slider = () => {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2
+                    initialSlide: 2,
+                    slidesPerRow: 2,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    slidesPerRow: 1,
                 }
             }
         ]
@@ -55,7 +59,7 @@ const New_Arrival_slider = () => {
                 <p className='text-xs font-bold'>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
             </div>
 
-            <Slider    {...settings}>
+            <Slider arrows={false}    {...settings}>
                 <div>
                     <div className='p-2 bg-white'>
                         <New_Product_Card />

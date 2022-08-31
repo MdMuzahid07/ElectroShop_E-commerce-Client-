@@ -14,7 +14,7 @@ const HeaderSlider = () => {
         initialSlide: 0,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         cssEase: "linear",
         responsive: [
             {
@@ -44,8 +44,8 @@ const HeaderSlider = () => {
         ]
     };
     return (
-        <section className='bg-slate-50 rounded-xl p-5 mb-7'>
-            <Slider {...settings}>
+        <section className='bg-slate-50 rounded-xl mb-7'>
+            <Slider arrows={false} {...settings}>
                 <div>
                     <div className='flex justify-around items-center pb-7'>
                         <div>

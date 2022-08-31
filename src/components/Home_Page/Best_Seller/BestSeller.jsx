@@ -52,7 +52,7 @@ const BestSeller = () => {
                 <p className='text-xs font-bold'>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
             </div>
 
-            <Slider {...settings}>
+            <Slider arrows={false} {...settings}>
                 <div className='p-2 bg-white'>
                     <Product_card />
                 </div>
