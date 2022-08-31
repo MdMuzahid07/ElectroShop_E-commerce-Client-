@@ -11,7 +11,7 @@ const Product_Card = () => {
 
     return (
         <section>
-            <div className="card bg-white rounded border-2 hover:border-primary my-7">
+            <div className="card bg-white rounded border-2 hover:border-primary">
                 <figure>
                     <img src="https://placeimg.com/400/225/arch" alt="Product_card" />
                 </figure>

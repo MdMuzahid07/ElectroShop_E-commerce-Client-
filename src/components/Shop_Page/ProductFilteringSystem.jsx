@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductFilteringSystem = () => {
     return (
-        <div className='grid md:grid-cols-4 lg:grid-cols-5 gap-3'>
+        <div className='grid md:grid-cols-4 gap-3'>
 
             <div className='bg-slate-50 rounded p-2'>
                 <h2 className='text-xs font-bold text-primary mb-2'>Filter by price</h2>
@@ -39,23 +39,29 @@ const ProductFilteringSystem = () => {
             </div>
 
             <div className='bg-slate-50 rounded p-2'>
-                <h2 className='text-xs font-bold text-primary mb-2'>Filter by ___</h2>
+                <h2 className='text-xs font-bold text-primary mb-2'>Short by ___</h2>
                 <select class="select w-full max-w-xs rounded">
                     <option disabled selected>Filter By</option>
-                    <option>Homer</option>
-                    <option>Marge</option>
-                    <option>Bart</option>
-                    <option>Lisa</option>
-                    <option>Maggie</option>
+                    <option>Short by popularity</option>
+                    <option>Short by latest</option>
+                    <option>Short by top rating</option>
+                    <option>Short by top average rating</option>
+                    <option>Short by log price</option>
+                    <option>Short by top price</option>
+                    <option>Short by premium brands</option>
                 </select>
             </div>
 
             <div className='bg-slate-50 rounded p-2'>
-                <h2>Lorem ipsum dolor</h2>
-            </div>
-
-            <div className='bg-slate-50 rounded p-2'>
-                <h2>Lorem ipsum dolor</h2>
+                <h2 className='text-xs font-bold text-primary mb-2'>Short by ___</h2>
+                <select class="select w-full max-w-xs rounded">
+                    <option disabled selected>Show product card</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>30</option>
+                    <option>50</option>
+                </select>
             </div>
 
         </div>
