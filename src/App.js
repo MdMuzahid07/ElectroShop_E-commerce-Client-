@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Animated_Cursor from "./components/AnimatedCursor/Animated_Cursor";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import About from "./pages/About";
@@ -24,6 +23,7 @@ import HomeMain from "./components/Modals/Main_slider_modal";
 import Payment from "./Payment/Payment";
 import Cart from "./pages/Cart";
 import BackToTopButton from "./components/Vanilla_back_to_top/BackToTopButton";
+import Toast_Container from "./components/ToastContainer/Toast_Container";
 function App() {
   return (
     <div className="bg-slate-50 relative">
@@ -52,17 +52,7 @@ function App() {
             </Routes>
           </div>
           <Footer />
-          <ToastContainer
-            position="bottom-center"
-            autoClose={5000}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-          />
+          <Toast_Container />
           <MessengerCustomerChat
             pageId="104988185648465"
             appId="1010650116290757"
