@@ -2,7 +2,7 @@ import React from 'react';
 
 const BackToTopButton = () => {
     return (
-        <div className='absolute bottom-5 right-5'>
+        <div className='absolute bottom-15 right-5'>
             <button className="btn btn-circle btn-outline btn-primary bg-white z-20">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
