@@ -44,10 +44,10 @@ const HeaderSlider = () => {
         ]
     };
     return (
-        <section className='bg-slate-50 rounded-xl mb-7'>
+        <section className='bg-slate-50 rounded-xl p-5 mb-7'>
             <Slider arrows={false} {...settings}>
                 <div>
-                    <div className='flex justify-around items-center pb-7'>
+                    <div className='flex justify-around items-center'>
                         <div>
                             <p className='mb-3'>Black friday</p>
                             <h2 className="text-2xl md:text-5xl font-bold text-primary">Electronic</h2>
@@ -61,7 +61,7 @@ const HeaderSlider = () => {
                 </div>
 
                 <div>
-                    <div className='flex justify-around items-center pb-7'>
+                    <div className='flex justify-around items-center'>
                         <div>
                             <p className='mb-3'>Best selling</p>
                             <h2 className="text-2xl md:text-5xl font-bold text-primary">Apple</h2>
@@ -75,7 +75,7 @@ const HeaderSlider = () => {
                 </div>
 
                 <div>
-                    <div className='flex justify-around items-center pb-7'>
+                    <div className='flex justify-around items-center'>
                         <div>
                             <p className='mb-3'>This week only</p>
                             <h2 className="text-2xl md:text-5xl font-bold text-primary">Up sale to</h2>

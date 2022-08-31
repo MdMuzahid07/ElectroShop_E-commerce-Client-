@@ -2,8 +2,8 @@ import React from 'react';
 
 const BackToTopButton = () => {
     return (
-        <div className='absolute bottom-28 right-5'>
-            <button className="btn btn-circle btn-lg btn-outline btn-accent z-20">
+        <div className='absolute bottom-24 right-7'>
+            <button className="btn btn-circle bg-white btn-outline btn-primary z-20">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none" viewBox="0 0 24 24"
