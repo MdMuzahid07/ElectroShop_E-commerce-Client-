@@ -6,7 +6,7 @@ import Product_Card from '../components/Shop_Page/Product_Card';
 
 const Shop = () => {
     return (
-        <div className='my-32'>
+        <div className='mt-7 mb-32'>
             <Page_Thumbnail />
 
 
