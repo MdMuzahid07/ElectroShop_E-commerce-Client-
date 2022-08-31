@@ -5,15 +5,7 @@ import { toast } from 'react-toastify';
 const Product_card = () => {
 
     const error = () => {
-        toast('its not functional, Developer working on this site!', {
-            position: "bottom-center",
-            autoClose: 2000,
-            progress: undefined,
-            hideProgressBar: false,
-            closeOnClick: false,
-            pauseOnHover: true,
-            draggable: true,
-        });
+        toast('its not functional, Developer working on this site!');
     };
 
     return (

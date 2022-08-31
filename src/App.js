@@ -52,7 +52,17 @@ function App() {
             </Routes>
           </div>
           <Footer />
-          <ToastContainer />
+          <ToastContainer
+            position="bottom-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
           <MessengerCustomerChat
             pageId="104988185648465"
             appId="1010650116290757"
