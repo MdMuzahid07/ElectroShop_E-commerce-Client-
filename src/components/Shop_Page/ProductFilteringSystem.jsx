@@ -55,7 +55,6 @@ const ProductFilteringSystem = () => {
             <div className='bg-slate-50 rounded p-2'>
                 <h2 className='text-xs font-bold text-primary mb-2'>Short by ___</h2>
                 <select class="select w-full max-w-xs rounded">
-                    <option disabled selected>Show product card</option>
                     <option>10</option>
                     <option>15</option>
                     <option>20</option>
