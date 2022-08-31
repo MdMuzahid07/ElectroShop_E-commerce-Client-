@@ -26,8 +26,8 @@ import Cart from "./pages/Cart";
 import BackToTopButton from "./components/Vanilla_back_to_top/BackToTopButton";
 function App() {
   return (
-    <div className="bg-slate-50 relative">
-      <main className="max-w-screen-xl mx-auto">
+    <div className="bg-slate-50">
+      <main className="max-w-screen-xl mx-auto relative">
         <Header>
           <div className="px-3 md:px-7 bg-white">
             <Routes>
@@ -52,7 +52,6 @@ function App() {
             </Routes>
           </div>
           <Footer />
-          <Animated_Cursor className="z-50" />
           <ToastContainer />
           <MessengerCustomerChat
             pageId="104988185648465"
@@ -61,6 +60,7 @@ function App() {
           />
           <BackToTopButton />
         </Header>
+        <Animated_Cursor className="z-50" />
       </main>
       <HomeMain />
     </div>
