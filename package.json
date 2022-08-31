@@ -17,6 +17,7 @@
     "react-slick": "^0.29.0",
     "react-toastify": "^9.0.7",
     "slick-carousel": "^1.8.1",
+    "vanilla-back-to-top": "^7.2.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

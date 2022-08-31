@@ -23,10 +23,11 @@ import AddProducts from "./Dashboard/AdminPages/AddProducts";
 import HomeMain from "./components/Modals/Main_slider_modal";
 import Payment from "./Payment/Payment";
 import Cart from "./pages/Cart";
+import BackToTopButton from "./components/Vanilla_back_to_top/BackToTopButton";
 function App() {
   return (
     <div className="bg-slate-50">
-      <main className="max-w-screen-xl mx-auto">
+      <main className="max-w-screen-xl mx-auto relative">
         <Header>
           <div className="px-3 md:px-7 bg-white">
             <Routes>
@@ -52,13 +53,16 @@ function App() {
           </div>
           <Footer />
           <Animated_Cursor className="z-50" />
+          <ToastContainer />
+        </Header>
+        <div className="absolute bottom-10 left-5">
           <MessengerCustomerChat
             pageId="104988185648465"
             appId="1010650116290757"
           // htmlRef="<REF_STRING>"
           />
-          <ToastContainer />
-        </Header>
+        </div>
+        <BackToTopButton />
       </main>
       <HomeMain />
     </div>
