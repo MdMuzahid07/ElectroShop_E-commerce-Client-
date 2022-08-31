@@ -26,8 +26,8 @@ import Cart from "./pages/Cart";
 import BackToTopButton from "./components/Vanilla_back_to_top/BackToTopButton";
 function App() {
   return (
-    <div className="bg-slate-50">
-      <main className="max-w-screen-xl mx-auto relative">
+    <div className="bg-slate-50 relative">
+      <main className="max-w-screen-xl mx-auto">
         <Header>
           <div className="px-3 md:px-7 bg-white">
             <Routes>
