@@ -54,15 +54,15 @@ function App() {
           <Footer />
           <Animated_Cursor className="z-50" />
           <ToastContainer />
+          <div className="absolute bottom-20 right-5">
+            <MessengerCustomerChat
+              pageId="104988185648465"
+              appId="1010650116290757"
+            // htmlRef="<REF_STRING>"
+            />
+          </div>
+          <BackToTopButton />
         </Header>
-        <div className="absolute bottom-10 left-5">
-          <MessengerCustomerChat
-            pageId="104988185648465"
-            appId="1010650116290757"
-          // htmlRef="<REF_STRING>"
-          />
-        </div>
-        <BackToTopButton />
       </main>
       <HomeMain />
     </div>
