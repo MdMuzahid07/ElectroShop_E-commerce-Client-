@@ -12,12 +12,12 @@ const New_Arrival_slider = () => {
         centerMode: true,
         infinite: true,
         centerPadding: "60px",
-        slidesToShow: 3,
+        slidesToShow: 1,
         rows: 2,
-        slidesPerRow: 2,
+        slidesPerRow: 4,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         cssEase: "linear",
         responsive: [
             {
@@ -57,89 +57,261 @@ const New_Arrival_slider = () => {
 
             <Slider    {...settings}>
                 <div>
-                    <New_Product_Card />
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
                 </div>
                 <div>
-                    <New_Product_Card />
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
                 </div>
                 <div>
-                    <New_Product_Card />
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
+                </div>
+                <div>
+                    <div className='p-2 bg-white'>
+                        <New_Product_Card />
+                    </div>
                 </div>
 
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>    <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>    <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
-                <div>
-                    <New_Product_Card />
-                </div>
 
             </Slider>
         </section>
