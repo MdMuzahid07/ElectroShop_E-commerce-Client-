@@ -45,21 +45,41 @@ const AddProducts = () => {
 
                             <div className='grid md:grid-cols-2 gap-4'>
                                 <input {...register("minimumOrder")} type="number" placeholder='Minimum order' className="input input-bordered input-primary w-full rounded" />
-                                <input {...register("category")} type="text" placeholder='Category' className="input input-bordered input-primary w-full rounded" />
+
+                                <input {...register("for")} type="text" placeholder='Where you want showcase the product' className="input input-bordered input-primary w-full rounded" />
                             </div>
 
                             <div className='grid md:grid-cols-2 gap-4 my-4'>
                                 <div>
                                     <p>Product image</p>
-                                    <input {...register("minimumOrder")} type="file" className=" bg-accent p-2 rounded w-full text-xs text-white
+                                    <input {...register("img")} type="file" className=" bg-accent p-2 rounded w-full text-xs text-white
                                 file:rounded-full file:border-0
                                 file:text-xs file:font-xs
                                 file:bg-primary file:text-white
                                 "/>
                                 </div>
                                 <div>
-                                    <p>SnapShot</p>
-                                    <input {...register("minimumOrder")} type="file" className=" bg-accent p-2 rounded w-full text-xs text-white
+                                    <p>SnapShot0</p>
+                                    <input {...register("snapshot0")} type="file" className=" bg-accent p-2 rounded w-full text-xs text-white
+                                file:rounded-full file:border-0
+                                file:text-xs file:font-xs
+                                file:bg-primary file:text-white
+                                "/>
+                                </div>
+                            </div>
+
+                            <div className='grid md:grid-cols-2 gap-4 mt-4'>
+                                <div>
+                                    <p>Snapshot1</p>
+                                    <input {...register("snapshot1")} type="file" className=" bg-accent p-2 rounded w-full text-xs text-white
+                                file:rounded-full file:border-0
+                                file:text-xs file:font-xs
+                                file:bg-primary file:text-white
+                                "/>
+                                </div>
+                                <div>
+                                    <p>SnapShot2</p>
+                                    <input {...register("snapshot2")} type="file" className=" bg-accent p-2 rounded w-full text-xs text-white
                                 file:rounded-full file:border-0
                                 file:text-xs file:font-xs
                                 file:bg-primary file:text-white
