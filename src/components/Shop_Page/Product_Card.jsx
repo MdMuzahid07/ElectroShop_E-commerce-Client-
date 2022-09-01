@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 const Product_Card = () => {
 
     const error = () => {
-        return toast.error("Its not functional, i think Developer sleeping");
+        return toast("Its not functional, i think Developer sleeping");
     };
 
     return (
