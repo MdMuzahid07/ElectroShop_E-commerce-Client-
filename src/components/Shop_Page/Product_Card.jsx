@@ -1,8 +1,8 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 
-const Product_Card = () => {
-
+const Product_Card = ({ product }) => {
+    const { brand, price, images } = product;
     const error = () => {
         return toast("Its not functional, i think Developer sleeping");
     };
@@ -11,7 +11,7 @@ const Product_Card = () => {
         <section>
             <div className="card bg-white rounded border-2 hover:border-primary">
                 <figure>
-                    <img src="https://placeimg.com/400/225/arch" alt="Product_card" />
+                    <img src={images[0]} alt="Product_card" />
                 </figure>
                 <div className="card-body items-center text-center">
                     <div className="rating rating-xs">
@@ -21,8 +21,8 @@ const Product_Card = () => {
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
                         <input type="radio" name="rating-7" className="mask mask-star-2 bg-orange-400" />
                     </div>
-                    <h2 className="text-xl font-bold">name</h2>
-                    <p>$: Price</p>
+                    <h2 className="text-xl font-bold">{brand}</h2>
+                    <p>$: {price}</p>
                     <div>
                         <button onClick={error} className="btn btn-circle btn-primary hover:bg-accent">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
