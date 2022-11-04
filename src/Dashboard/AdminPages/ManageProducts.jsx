@@ -1,4 +1,5 @@
 import React from 'react';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 
 const ManageProducts = () => {
     const handleCancelAll = () => {
@@ -6,6 +7,7 @@ const ManageProducts = () => {
     }
     return (
         <div className='my-7'>
+            <HelmetTitle>Mange Products</HelmetTitle>
             <h2 className='text-3xl font-bold text-primary'>Manage Products</h2>
             <hr className='mt-5 mb-7' />
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 
 
 const AddProducts = () => {
@@ -12,6 +13,7 @@ const AddProducts = () => {
     console.log(watch("example")); // watch input value by passing the name of it
     return (
         <div className='mx-auto my-7'>
+            <HelmetTitle>Add Product</HelmetTitle>
             <h2 className='text-3xl font-bold text-primary'>Add product</h2>
             <hr className='mt-5 mb-7' />
 

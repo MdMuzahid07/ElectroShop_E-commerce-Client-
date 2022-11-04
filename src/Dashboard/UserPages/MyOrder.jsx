@@ -1,8 +1,10 @@
 import React from 'react';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 
 const MyOrder = () => {
     return (
         <div className='my-7'>
+            <HelmetTitle>My Order</HelmetTitle>
             <h2 className='text-3xl font-bold text-primary'>My Orders</h2>
             <hr className='mt-5 mb-7' />
 

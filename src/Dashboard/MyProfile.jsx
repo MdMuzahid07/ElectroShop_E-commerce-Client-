@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
-import { Link } from 'react-router-dom';
-import Google_Map from '../components/Contact_Page/Google_Map';
+import { toast } from 'react-toastify';
+import HelmetTitle from '../components/HelmetTitle/HelmetTitle';
 
 const MyProfile = () => {
 
@@ -9,10 +9,14 @@ const MyProfile = () => {
     const onSubmit = data => {
         console.log(data)
     };
+    if (errors) {
+        toast.error(errors.message);
+    };
 
     console.log(watch("example")); // watch input value by passing the name of it
     return (
         <div className='mx-auto my-7'>
+            <HelmetTitle>My Profile</HelmetTitle>
             <h2 className='text-3xl font-bold text-primary'>My Profile</h2>
             <hr className='mt-5 mb-7' />
 

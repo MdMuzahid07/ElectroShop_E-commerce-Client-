@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import HelmetTitle from '../components/HelmetTitle/HelmetTitle';
 
 const Dashboard = () => {
     return (
         <div className='max-w-full my-7 bg-slate-100 rounded-xl'>
+            <HelmetTitle>Dashboard</HelmetTitle>
             <div className="drawer drawer-mobile">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content">

@@ -7,10 +7,12 @@ import NewCollection_BestSeller from '../components/Home_Page/NewCollection_Best
 import New_Arrival_slider from '../components/Home_Page/New_Arrival/New_Arrival_slider';
 import New_Arrival_thumbnail from '../components/Home_Page/New_Arrival/New_Arrival_thumbnail';
 import HeaderSlider from '../components/Home_Page/HeaderSlider';
+import HelmetTitle from '../components/HelmetTitle/HelmetTitle';
 
 const Home = () => {
     return (
         <section className='my-7'>
+            <HelmetTitle>Home</HelmetTitle>
             <HeaderSlider />
             <NewCollection_BestSeller />
             <BestSeller />

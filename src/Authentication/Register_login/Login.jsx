@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 import Social_login from './Social_login';
 
 const Login = () => {
@@ -13,6 +14,7 @@ const Login = () => {
 
     return (
         <div className='my-7'>
+            <HelmetTitle>Login</HelmetTitle>
             <div className='max-w-screen-lg	mx-auto bg-white'>
                 <div className="grid md:grid-cols-2 gap-2 bg-primary border drop-shadow rounded-xl">
                     <div className='flex items-center p-7'>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { toast } from 'react-toastify';
+import HelmetTitle from '../components/HelmetTitle/HelmetTitle';
 import LoadingSpinner from '../components/LoadingSpinner/LoadingSpinner';
 import Page_Thumbnail from '../components/Shop_Page/Page_Thumbnail';
 import Pagination from '../components/Shop_Page/Pagination';
@@ -21,6 +22,7 @@ const Shop = () => {
 
     return (
         <div className='mt-7 mb-32'>
+            <HelmetTitle >Shop</HelmetTitle>
             <Page_Thumbnail />
 
             <div className='mt-32'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 
 const ManageOrders = () => {
 
@@ -7,6 +8,7 @@ const ManageOrders = () => {
     }
     return (
         <div className='my-7'>
+            <HelmetTitle>Mange Orders</HelmetTitle>
             <h2 className='text-3xl font-bold text-primary'>Manage Orders</h2>
             <hr className='mt-5 mb-7' />
 

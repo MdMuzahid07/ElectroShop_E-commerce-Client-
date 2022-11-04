@@ -1,8 +1,10 @@
 import React from 'react';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 
 const GiveAReview = () => {
     return (
         <div className='my-7'>
+            <HelmetTitle>Give a Review</HelmetTitle>
             <h2 className='text-3xl font-bold text-primary'>Give a review</h2>
             <hr className='mt-5 mb-7' />
             <div className="bg-white border drop-shadow rounded my-20">

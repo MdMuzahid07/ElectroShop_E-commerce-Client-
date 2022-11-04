@@ -1,4 +1,5 @@
 import React from 'react';
+import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 
 const ManageUsers = () => {
     const handleCancelAll = () => {
@@ -6,7 +7,8 @@ const ManageUsers = () => {
     }
     return (
         <div className='my-7'>
-            <h2 className='text-3xl font-bold text-primary'>Manage Products</h2>
+            <HelmetTitle>Mange Users</HelmetTitle>
+            <h2 className='text-3xl font-bold text-primary'>Manage Users</h2>
             <hr className='mt-5 mb-7' />
 
             <div className="overflow-x-auto w-full  border drop-shadow rounded-xl">
