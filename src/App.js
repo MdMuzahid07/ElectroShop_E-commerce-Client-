@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Animated_Cursor from "./components/AnimatedCursor/Animated_Cursor";
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -24,7 +24,7 @@ import Payment from "./Payment/Payment";
 import Cart from "./pages/Cart";
 import BackToTopButton from "./components/Vanilla_back_to_top/BackToTopButton";
 import Toast_Container from "./components/ToastContainer/Toast_Container";
-import RequireAuth from "./Authentication/RequireAuth";
+import RequireAuth from "./Authentication/Register_login/RequireAuth";
 function App() {
   return (
     <div className="bg-slate-50 relative">

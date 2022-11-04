@@ -1,5 +1,5 @@
-import React from 'react';
-import Social_Icons from '../Social_Icons';
+import React from "react";
+import Social_Icons from "../Social_Icons";
 
 const Footer = () => {
     return (
@@ -7,7 +7,7 @@ const Footer = () => {
             <section className="grid md:grid-cols-4 bg-slate-100 px-4 md:px-10 py-7">
                 <div>
                     <h2 className="text-xl font-bold">Top brands</h2>
-                    <hr className='my-2' />
+                    <hr className="my-2" />
                     <h2>
                         <a href="/#" className="link link-hover">Apple</a>
                     </h2>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h2 className="text-xl font-bold">Company</h2>
-                    <hr className='my-2' />
+                    <hr className="my-2" />
                     <h2>
                         <a href="/#" className="link link-hover">About us</a>
                     </h2>
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h2 className="text-xl font-bold">Terms and condition</h2>
-                    <hr className='my-2' />
+                    <hr className="my-2" />
                     <h2>
                         <a href="/#" className="link link-hover">Privacy policy</a>
                     </h2>
@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h2 className="text-xl font-bold ">Newsletter</h2>
-                    <hr className='my-2' />
+                    <hr className="my-2" />
                     <div className="form-control w-80">
                         <label className="label">
                             <span className="label-text">Stay connect with us</span>

@@ -1,5 +1,5 @@
-import React from 'react';
-import Slider from 'react-slick';
+import React from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -43,11 +43,11 @@ const Brand_we_work_with = () => {
     };
     return (
         <div>
-            <div className='my-7 text-center'>
+            <div className="my-7 text-center">
                 <div className="flex flex-col w-full border-opacity-50">
                     <div className="divider text-4xl font-bold text-primary">Brands</div>
                 </div>
-                <p className='text-xs font-bold'>We work with 100 plus of world wide best brands</p>
+                <p className="text-xs font-bold">We work with 100 plus of world wide best brands</p>
             </div>
             <Slider arrows={false} {...settings}>
 

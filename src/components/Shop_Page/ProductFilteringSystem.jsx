@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const ProductFilteringSystem = () => {
     return (
-        <div className='grid md:grid-cols-4 gap-3'>
+        <div className="grid md:grid-cols-4 gap-3">
 
-            <div className='bg-slate-50 rounded p-2'>
-                <h2 className='text-xs font-bold text-primary mb-2'>Filter by price</h2>
+            <div className="bg-slate-50 rounded p-2">
+                <h2 className="text-xs font-bold text-primary mb-2">Filter by price</h2>
                 <div className="grid grid-cols-4 gap-2">
                     <button className="btn btn-md btn-primary rounded">$7</button>
                     <button className="btn btn-md btn-primary rounded">$7</button>
@@ -18,8 +18,8 @@ const ProductFilteringSystem = () => {
                 </div>
             </div>
 
-            <div className='bg-slate-50 rounded p-2'>
-                <h2 className='text-xs font-bold text-primary mb-2'>Filter by color</h2>
+            <div className="bg-slate-50 rounded p-2">
+                <h2 className="text-xs font-bold text-primary mb-2">Filter by color</h2>
                 <div className="form-control">
                     <label className="label cursor-pointer grid grid-cols-4 gap-2">
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
@@ -38,8 +38,8 @@ const ProductFilteringSystem = () => {
                 </div>
             </div>
 
-            <div className='bg-slate-50 rounded p-2'>
-                <h2 className='text-xs font-bold text-primary mb-2'>Short by ___</h2>
+            <div className="bg-slate-50 rounded p-2">
+                <h2 className="text-xs font-bold text-primary mb-2">Short by ___</h2>
                 <select className="select w-full max-w-xs rounded">
                     <option disabled selected>Filter By</option>
                     <option>Short by popularity</option>
@@ -52,8 +52,8 @@ const ProductFilteringSystem = () => {
                 </select>
             </div>
 
-            <div className='bg-slate-50 rounded p-2'>
-                <h2 className='text-xs font-bold text-primary mb-2'>Short by ___</h2>
+            <div className="bg-slate-50 rounded p-2">
+                <h2 className="text-xs font-bold text-primary mb-2">Short by ___</h2>
                 <select className="select w-full max-w-xs rounded">
                     <option>10</option>
                     <option>15</option>

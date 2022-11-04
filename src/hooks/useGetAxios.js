@@ -1,11 +1,11 @@
-import axios from 'axios';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import axios from "axios";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const useGetAxios = (url) => {
 
     const [products, setProducts] = useState([]);
-    const [error, setError] = useState('');
+    const [error, setError] = useState("");
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {

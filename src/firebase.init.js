@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
+// Your web app"s Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAV2O6ESI4KP2t2Y7YcyDf1X96cCbG7_Zc",
     authDomain: "electroshop-d1d39.firebaseapp.com",

@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
-import Categories_menu from './Categories_menu';
-import Header_top from './Header_top';
+import React from "react";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import Categories_menu from "./Categories_menu";
+import Header_top from "./Header_top";
 import { signOut } from "firebase/auth";
-import auth from '../../firebase.init';
-import { toast } from 'react-toastify';
+import auth from "../../firebase.init";
+import { toast } from "react-toastify";
 
 
 const Header = ({ children }) => {
@@ -32,7 +32,7 @@ const Header = ({ children }) => {
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                                 </label>
                             </div>
-                            <Link to='/' className="btn btn-ghost rounded-none normal-case text-2xl  md:text-4xl text-primary font-bold">ElectroShop</Link>
+                            <Link to="/" className="btn btn-ghost rounded-none normal-case text-2xl  md:text-4xl text-primary font-bold">ElectroShop</Link>
                         </div>
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal p-0 capitalize font-bold">
@@ -106,7 +106,7 @@ const Header = ({ children }) => {
                                         <Link to="/login"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
                                         </svg>Register/Login</Link>
-                                        <Link to="/dashboard/my_orders" className='font-bold'><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <Link to="/dashboard/my_orders" className="font-bold"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M8 13v-1m4 1v-3m4 3V8M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
                                         </svg>Dashboard</Link>
                                         <button onClick={handleSignOut} className="button-white">

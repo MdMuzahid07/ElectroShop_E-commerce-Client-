@@ -1,9 +1,9 @@
-import React from 'react';
-import { CirclesWithBar } from 'react-loader-spinner';
+import React from "react";
+import { CirclesWithBar } from "react-loader-spinner";
 
 const LoadingSpinner = () => {
     return (
-        <div className='flex justify-center items-center'>
+        <div className="flex justify-center items-center">
             <CirclesWithBar
                 height="50"
                 width="50"
@@ -14,7 +14,7 @@ const LoadingSpinner = () => {
                 outerCircleColor=""
                 innerCircleColor=""
                 barColor=""
-                ariaLabel='circles-with-bar-loading'
+                ariaLabel="circles-with-bar-loading"
             />
         </div>
     );

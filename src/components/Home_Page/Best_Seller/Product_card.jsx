@@ -1,11 +1,11 @@
-import React from 'react';
-import { toast } from 'react-toastify';
+import React from "react";
+import { toast } from "react-toastify";
 
 
 const Product_card = () => {
 
     const error = () => {
-        toast('its not functional, Developer working on this site!');
+        toast("its not functional, Developer working on this site!");
     };
 
     return (

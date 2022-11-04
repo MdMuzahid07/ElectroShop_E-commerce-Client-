@@ -1,9 +1,9 @@
 
-import React from 'react';
-import Slider from 'react-slick';
+import React from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import New_Product_Card from './New_Product_Card';
+import New_Product_Card from "./New_Product_Card";
 
 const New_Arrival_slider = () => {
 
@@ -51,267 +51,267 @@ const New_Arrival_slider = () => {
         ]
     };
     return (
-        <section className='my-20'>
-            <div className='my-7 text-center'>
+        <section className="my-20">
+            <div className="my-7 text-center">
                 <div className="flex flex-col w-full border-opacity-50">
                     <div className="divider text-4xl font-bold text-primary">New Arrival</div>
                 </div>
-                <p className='text-xs font-bold'>Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
+                <p className="text-xs font-bold">Made with care for your little ones, our products are perfect for every occasion. Check it out.</p>
             </div>
 
             <Slider arrows={false}    {...settings}>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
                 <div>
-                    <div className='p-2 bg-white'>
+                    <div className="p-2 bg-white">
                         <New_Product_Card />
                     </div>
                 </div>
