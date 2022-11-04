@@ -17,7 +17,7 @@ const Social_login = () => {
             .then((result) => {
                 const user = result.user;
                 if (user) {
-                    navigate("/home")
+                    navigate("/")
                     toast.success(`${user?.displayName} Welcome to ElectroShop`);
                 }
             }).catch((error) => {
