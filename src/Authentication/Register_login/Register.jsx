@@ -1,14 +1,35 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import HelmetTitle from '../../components/HelmetTitle/HelmetTitle';
 import Social_login from './Social_login';
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import auth from '../../firebase.init';
+import { toast } from 'react-toastify';
+
 
 const Register = () => {
+    const navigate = useNavigate();
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
-        console.log(data)
+        const email = data?.email;
+        const password = data?.password;
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                const user = userCredential?.user;
+                if (user) {
+                    navigate("/");
+                    toast.success(`${user?.displayName} Welcome to ElectroShop`);
+                }
+            })
+            .catch((error) => {
+                toast.error(error?.message);
+            });
     };
+
+    if (errors) {
+        toast.error(errors?.message);
+    }
 
     console.log(watch("example")); // watch input value by passing the name of it
 

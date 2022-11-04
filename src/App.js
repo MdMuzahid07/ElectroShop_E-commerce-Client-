@@ -24,6 +24,7 @@ import Payment from "./Payment/Payment";
 import Cart from "./pages/Cart";
 import BackToTopButton from "./components/Vanilla_back_to_top/BackToTopButton";
 import Toast_Container from "./components/ToastContainer/Toast_Container";
+import RequireAuth from "./Authentication/RequireAuth";
 function App() {
   return (
     <div className="bg-slate-50 relative">
@@ -37,7 +38,11 @@ function App() {
               <Route path="/contact" element={<Contact />} />
               <Route path="/register" element={<Register />} />
               <Route path="/login" element={<Login />} />
-              <Route path="/dashboard" element={<Dashboard />} >
+              <Route path="/dashboard" element={
+                <RequireAuth>
+                  <Dashboard />
+                </RequireAuth>
+              } >
                 <Route path="profile" element={<MyProfile />} />
                 <Route path="review" element={<GiveAReview />} />
                 <Route path="my_orders" element={<MyOrder />} />

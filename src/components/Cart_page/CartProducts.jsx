@@ -6,13 +6,13 @@ const CartProducts = () => {
             <h2 className='text-xl font-bold'>Shopping Cart</h2>
             <hr className='my-2' />
             <div>
-                <div class="card card-compact w-full bg-white border drop-shadow rounded">
-                    <div class="card-body text-xs">
+                <div className="card card-compact w-full bg-white border drop-shadow rounded">
+                    <div className="card-body text-xs">
                         <div className='grid md:grid-cols-5 gap-2 text-xs'>
 
                             <div>
-                                <div class="avatar">
-                                    <div class="w-22 rounded">
+                                <div className="avatar">
+                                    <div className="w-22 rounded">
                                         <img src="https://placeimg.com/192/192/people" alt="product_image" />
                                     </div>
                                 </div>

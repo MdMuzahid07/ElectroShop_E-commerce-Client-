@@ -8,7 +8,7 @@ import New_Product_Card from './New_Product_Card';
 const New_Arrival_slider = () => {
 
     var settings = {
-        className: "center",
+        classNameName: "center",
         centerMode: true,
         dots: false,
         infinite: true,

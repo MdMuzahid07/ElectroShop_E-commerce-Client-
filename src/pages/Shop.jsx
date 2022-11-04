@@ -29,7 +29,7 @@ const Shop = () => {
                 <ProductFilteringSystem />
             </div>
 
-            <div class="divider" />
+            <div className="divider" />
 
             <div className='grid md:grid-cols-3 lg:grid-cols-5 gap-3'>
                 {

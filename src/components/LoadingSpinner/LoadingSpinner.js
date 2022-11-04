@@ -9,7 +9,7 @@ const LoadingSpinner = () => {
                 width="50"
                 color="#FF4A11"
                 wrapperStyle={{}}
-                wrapperClass=""
+                wrapperclassName=""
                 visible={true}
                 outerCircleColor=""
                 innerCircleColor=""
