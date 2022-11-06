@@ -2,14 +2,12 @@ import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import Categories_menu from "./Categories_menu";
 import Header_top from "./Header_top";
-import { signOut, onAuthStateChanged } from "firebase/auth";
+import { signOut } from "firebase/auth";
 import auth from "../../firebase.init";
 import { toast } from "react-toastify";
-import { useState } from "react";
 
 
 const Header = ({ children }) => {
-    const [user, setUser] = useState();
     const navigate = useNavigate();
     const handleSignOut = () => {
         signOut(auth).then(() => {
@@ -19,13 +17,6 @@ const Header = ({ children }) => {
             toast.error(error.message);
         });
     };
-
-    onAuthStateChanged(auth, (user) => {
-        if (user) {
-            setUser(user)
-        }
-    });
-
 
     return (
         <header>
@@ -103,7 +94,7 @@ const Header = ({ children }) => {
                                 <label tabIndex="0">
                                     <div className="avatar">
                                         <div className="w-7 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                            <img src={user ? user?.photoURL : "https://images.unsplash.com/photo-1611915387288-fd8d2f5f928b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"} alt="" />
+                                            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="" />
                                         </div>
                                     </div>
                                 </label>
