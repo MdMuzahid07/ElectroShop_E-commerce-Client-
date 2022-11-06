@@ -52,7 +52,11 @@ function App() {
                 <Route path="add_product" element={<AddProducts />} />
               </Route>
               <Route path="payment" element={<Payment />} />
-              <Route path="/cart" element={<Cart />} />
+              <Route path="/cart" element={
+                <RequireAuth>
+                  <Cart />
+                </RequireAuth>
+              } />
               <Route path="/*" element={<Error_page />} />
             </Routes>
           </div>
