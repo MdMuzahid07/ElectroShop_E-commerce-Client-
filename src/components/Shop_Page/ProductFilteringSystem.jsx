@@ -22,6 +22,7 @@ const ProductFilteringSystem = () => {
                 <h2 className="text-xs font-bold text-primary mb-2">Filter by color</h2>
                 <div className="form-control">
                     <label className="label cursor-pointer grid grid-cols-4 gap-2">
+                        {/* <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
@@ -32,8 +33,7 @@ const ProductFilteringSystem = () => {
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
                         <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
-                        <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
-                        <input type="checkbox" checked="checked" className="checkbox checkbox-primary" />
+                        <input type="checkbox" checked="checked" className="checkbox checkbox-primary" /> */}
                     </label>
                 </div>
             </div>

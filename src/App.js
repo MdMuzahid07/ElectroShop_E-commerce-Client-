@@ -58,12 +58,12 @@ function App() {
           </div>
           <Footer />
           <Toast_Container />
-          <MessengerCustomerChat
+          {/* <MessengerCustomerChat
             pageId="104988185648465"
             appId="1010650116290757"
           // htmlRef="<REF_STRING>"
-          />
-          <BackToTopButton />
+          /> */}
+          {/* <BackToTopButton /> */}
         </Header>
       </main>
       <HomeMain />

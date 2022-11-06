@@ -65,7 +65,7 @@ const ManageOrders = () => {
                     </tfoot>
                 </table>
             </div>
-        </div>
+        </div >
     )
 
 };

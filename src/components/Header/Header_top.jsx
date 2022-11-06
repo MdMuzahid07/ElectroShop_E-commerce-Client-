@@ -24,7 +24,7 @@ const Header_top = () => {
                     </select>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

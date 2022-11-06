@@ -35,7 +35,7 @@ const GiveAReview = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

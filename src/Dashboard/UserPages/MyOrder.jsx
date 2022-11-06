@@ -111,7 +111,7 @@ const MyOrder = () => {
 
                 </table>
             </div>
-        </div>
+        </div >
     );
 };
 

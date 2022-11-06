@@ -41,9 +41,9 @@ const Product_Card = ({ product }) => {
                             </svg>
                         </label>
                     </div>
-                </div>
-            </div>
-        </section>
+                </div >
+            </div >
+        </section >
     );
 };
 

@@ -94,9 +94,9 @@ const AddProducts = () => {
                             </svg></button>
                         </form>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div >
+            </div >
+        </div >
     );
 };
 
